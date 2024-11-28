@@ -513,7 +513,7 @@ local game_support = {
     ImageButton.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
     ImageButton.BackgroundTransparency = 0.350
     ImageButton.Size = UDim2.new(0, 90, 0, 90)
-    ImageButton.Image = "rbxassetid://137940091129627"
+    ImageButton.Image = "rbxassetid://182223762"
     ImageButton.Position = UDim2.new(0.5, -25, 0.5, -25)
 
     local Ui2corner = Instance.new("UICorner")
@@ -629,7 +629,7 @@ end
 
 local function toggleLock()
     if enabled then
-        ImageButton.Image = "rbxassetid://134820707156642"
+        ImageButton.Image = "rbxassetid://182223762"
         enabled = false
         Plr = nil
         destroyTracer()  
@@ -643,7 +643,7 @@ local function toggleLock()
             createTracer(game.Players.LocalPlayer, Plr)  
         end
             
-            ImageButton.Image = "rbxassetid://78342062013795"
+            ImageButton.Image = "rbxassetid://7986256039"
 Library:Notify("Target Locked: " .. tostring(Plr.Character.Humanoid.DisplayName)
             
             )
