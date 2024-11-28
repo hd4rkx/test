@@ -511,9 +511,9 @@ local game_support = {
     ImageButton.Active = true
     ImageButton.Draggable = true
     ImageButton.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-    ImageButton.BackgroundTransparency = 100
+    ImageButton.BackgroundTransparency = 1
     ImageButton.Size = UDim2.new(0, 90, 0, 90)
-    ImageButton.Image = "rbxasset://textures/ui/mouseLock_off@2x.png"
+    ImageButton.Image = "rbxassetid://137940091129627"
     ImageButton.Position = UDim2.new(0.5, -25, 0.5, -25)
 
     local Ui2corner = Instance.new("UICorner")
@@ -629,7 +629,7 @@ end
 
 local function toggleLock()
     if enabled then
-        ImageButton.Image = "rbxasset://textures/ui/mouseLock_off@2x.png"
+        ImageButton.Image = "rbxassetid://137940091129627"
         enabled = false
         Plr = nil
         destroyTracer()  
